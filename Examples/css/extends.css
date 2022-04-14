@@ -1,0 +1,12 @@
+.glory, .error--serious {
+  box-shadow: 12px 12px 2px 1px gold;
+}
+
+.error, .error--serious {
+  border: 1px #f00;
+  background-color: #fdd;
+}
+.error--serious {
+  border-radius: 10px;
+  border-width: 3px;
+}

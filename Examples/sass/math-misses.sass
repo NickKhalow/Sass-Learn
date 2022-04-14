@@ -1,0 +1,10 @@
+@use 'sass:math'
+    
+.first
+    padding: 16px / 24px //не работает
+
+.second
+    //padding: (20px / 5px) вам бан
+    //Скобки нельзя
+    padding: math.div(16px, 24px)
+    

@@ -5,8 +5,8 @@
 }
 
 .alert {
-  background: DarkRed;
-  box-shadow: 0 0 10px rgba(139, 0, 0, 0.25);
+  background: #3f3;
+  box-shadow: 0 0 10px rgba(51, 255, 51, 0.25);
   color: #fff;
 }
 
@@ -15,5 +15,3 @@
   box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
   color: #fff;
 }
-
-/*# sourceMappingURL=mixins.css.map */

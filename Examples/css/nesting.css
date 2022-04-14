@@ -1,0 +1,9 @@
+nav ul {
+  margin: 10;
+  list-style: none;
+  color: yellow;
+  border-radius: 10px;
+}
+nav p {
+  padding: 5px;
+}

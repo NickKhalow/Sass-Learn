@@ -1,0 +1,19 @@
+h1 {
+  color: #283593;
+  padding: 16px;
+}
+
+p {
+  color: #ffee58;
+  padding: 16px;
+}
+
+li {
+  margin: 100px;
+}
+
+.someclass {
+  /* but you cant use variables, mixins and functions with import!
+  * Use is required
+  * padding: artice.$padding */
+}

@@ -1,0 +1,18 @@
+@mixin bordered($radius: 10px)
+    border-radius: $radius 
+    
+    
+.glory
+    box-shadow: 12px 12px 2px 1px gold
+    
+.error //parent
+    border: 1px #f00
+    background-color: #fdd
+    
+    &--serious //inherit
+        @extend .error
+        @extend .glory
+        
+        @include bordered()
+        
+        border-width: 3px

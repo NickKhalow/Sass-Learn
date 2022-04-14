@@ -1,0 +1,9 @@
+.alert {
+  color: red;
+}
+.alert:hover {
+  font-weight: bold;
+}
+:not(.alert) {
+  opacity: 0.8;
+}
