@@ -1,0 +1,19 @@
+.info {
+  background: Grey;
+  box-shadow: 0 0 1px rgba(128, 128, 128, 0.25);
+  color: #fff;
+}
+
+.alert {
+  background: DarkRed;
+  box-shadow: 0 0 10px rgba(139, 0, 0, 0.25);
+  color: #fff;
+}
+
+.success {
+  background: DarkGreen;
+  box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
+  color: #fff;
+}
+
+/*# sourceMappingURL=mixins.css.map */
