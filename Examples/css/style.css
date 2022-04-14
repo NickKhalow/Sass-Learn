@@ -1,11 +1,14 @@
 body {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 nav ul {
   margin: 0;
   list-style: none;
-  color: white;
+  color: whitesmoke;
+}
+nav p {
+  padding: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
