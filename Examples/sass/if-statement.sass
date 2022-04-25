@@ -1,0 +1,17 @@
+@use 'sass:math'
+
+@mixin avatar($size, $circle: false)
+    width: $size
+    height: $size
+
+    @if $circle
+        border-radius: math.div($size, 2)
+    @else
+        border-radius: 0px
+
+.square-av
+    @include avatar(100px, $circle: false)
+.circle-av
+    @include avatar(100px, $circle: true)
+
+
